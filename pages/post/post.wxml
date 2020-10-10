@@ -1,3 +1,47 @@
 <view>
-  <text>post</text>
+
+  <swiper indicator-dots="true" autoplay="ture" interval="3000">
+      <swiper-item>
+        <image src="/images/wx.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/vr.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/iqiyi.png"></image>
+      </swiper-item>
+  </swiper>
+
+  <view class="post-container">
+    <view class="post-author-data">
+      <image class="post-author" src="/images/avatar/1.png"></image>
+      <text class="post-data">Oct 10 2020</text>
+    </view>
+    <text class="post-title">正是虾肥蟹壮时</text>
+    <image class="post-image" src="/images/post/crab.png"></image>
+    <text class="post-content">“菊黄蟹正肥，品尝秋之味”，徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不可错过的风雅之事；用林妹妹的话讲是“蟹封嫩玉双双满”</text>
+    <view class="post-like">
+      <image class="post-like-image" src="/images/icon/chat.png"></image>
+      <text class="post-like-font">100</text>
+      <image class="post-like-image" src="/images/icon/view.png"></image>
+      <text class="post-like-font">100</text>
+    </view>
+  </view>
+
+  <view class="post-container">
+    <view class="post-author-data">
+      <image class="post-author" src="/images/avatar/2.png"></image>
+      <text class="post-data">Oct 8 2020</text>
+    </view>
+    <text class="post-title">比利林恩的中场战事</text>
+    <image class="post-image" src="/images/post/bl.png"></image>
+    <text class="post-content">《比利·林恩的中场战事》根据本·芳汀同名小说改编，讲述了在伊拉克战争中的美国士兵比利·林恩与战友战胜归来并被誉为美国英雄，在一场橄榄球公开赛的中场表演过程中，揭露这群士兵在战场上真实经历的故事</text>
+    <view class="post-like">
+      <image class="post-like-image" src="/images/icon/chat.png"></image>
+      <text class="post-like-font">58</text>
+      <image class="post-like-image" src="/images/icon/view.png"></image>
+      <text class="post-like-font">33</text>
+    </view>
+  </view>
+  
 </view>
