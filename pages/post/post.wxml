@@ -17,7 +17,9 @@
   <!--block循环标签 wx:for是一个for循环-->
   <block wx:for="{{post_keys}}">
     <!--使用模板来填充，模板可以复用到其它页面-->
-    <template is="postItem" data="{{item}}" />
+    <view catchtap="onPostTap" data-postId="{{item.postId}}">
+      <template is="postItem" data="{{...item}}" />
+    </view>
   </block>
   
 </view>

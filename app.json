@@ -1,11 +1,13 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/post/post-detail/post-detail",
     "pages/post/post",
     "pages/logs/logs"
+    
   ],
   "window":{
-    "navigationBarBackgroundColor": "#b3d4db"
+    "navigationBarBackgroundColor": "#405f80"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
