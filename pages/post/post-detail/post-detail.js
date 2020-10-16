@@ -46,13 +46,30 @@ Page({
     wx.setStorageSync('post_Collecteds', postCollecteds);
     //更新数据绑定
     this.setData({collected:postCollected});
+    //收藏提示
+    wx.showToast({
+      title: postCollected ? '收藏成功' : '取消成功',
+      icon: 'success',
+      duration: 500
+    })
   },
 
   onShareTap:function(event) {
-    //清楚缓存
-    wx.removeStorage({
-      key: 'key',
+    wx.showActionSheet({
+      itemList: [
+        '分享给朋友',
+        '分享到朋友圈', 
+        '分享到微博'
+      ],
+      itemColor: "#405f80",
+      success (res) {
+        console.log(res.tapIndex)
+      },
+      fail (res) {
+        console.log(res.errMsg)
+      }
     })
   }
+
 
 })
