@@ -15,7 +15,7 @@ Page({
     // })
 
     //平级页面跳转
-    wx.redirectTo({
+    wx.navigateTo({
       url: '/pages/post/post',
     })
   },

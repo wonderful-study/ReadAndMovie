@@ -1,0 +1,23 @@
+
+.starts-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.starts{
+  display: flex;
+  flex-direction: row;
+  height: 17rpx;
+  margin-right: 8rpx;
+  margin-top: 6rpx;
+}
+
+.starts image{
+  padding-left: 8rpx;
+  height: 17rpx;
+  width: 17rpx;
+}
+
+.starts-score{
+  color: #1f3463;
+}

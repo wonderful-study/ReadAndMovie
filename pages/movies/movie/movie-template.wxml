@@ -1,0 +1,9 @@
+<import src="../starts/starts-template.wxml" />
+
+<template name="movieTemplate">
+  <view class="movie-container">
+    <image class="movie-image" src="/images/iqiyi.png"></image>
+    <text class="movie-title">爱奇艺</text>
+    <template is="startsTemplate"></template>
+  </view>
+</template>

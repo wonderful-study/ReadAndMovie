@@ -1,12 +1,12 @@
 <view class="container">
 
   <image class="head-image" src="{{imgSrc}}"></image>
-  <image class="audio" src="/images/music/music-start.png"></image>
+  <image class="audio" catchtap="onMusicTap" src="/images/music/music-start.png"></image>
 
   <view class="author-data">
     <image class="avatar" src="{{avatar}}"></image>
     <text class="author">{{author}}</text>
-<text class="const-text">发表于</text>
+    <text class="const-text">发表于</text>
     <text class="data">{{dateTime}}</text>
   </view>
 

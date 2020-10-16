@@ -1,0 +1,12 @@
+<template name="startsTemplate">
+  <view class="starts-container">
+    <view class="starts">
+      <image src="/images/icon/star.png"></image>
+      <image src="/images/icon/star.png"></image>
+      <image src="/images/icon/star.png"></image>
+      <image src="/images/icon/star.png"></image>
+      <image src="/images/icon/star.png"></image>
+    </view>
+    <text class="starts-score">9.0</text>
+  </view>   
+</template>
